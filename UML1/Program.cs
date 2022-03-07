@@ -6,7 +6,12 @@ namespace UML1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("OMFG, you are yeezys christ!");
+            Store start = new Store();
+            start.start();
+
+            Console.WriteLine();
+            Console.WriteLine("Press key to close program");
         }
+
     }
 }
